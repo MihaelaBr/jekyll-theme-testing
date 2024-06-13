@@ -1,11 +1,11 @@
 ---
 layout: default
 modal-id: 1
-date: 2014-07-18
-img: cabin.png
+date: 2024-06-13
+img: Spotify_data_project_1.jpeg
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+project-date: June 2024
+client: Personal project
+category: Python Programming
+description: This project was created in Jupyter Notebooks using the data from my personal Spotify account. Data was provided by Spotify after an official request. The base for the Exploratory Data Analysis was a Women in Data Science Workshop on using Jupyter Notebooks for data analysis and visualisations. 
 ---

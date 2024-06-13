@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: 2
+date: 2023-12-01
+img: Sales_pipeline_project_2.jpeg
+alt: image-alt
+project-date: December 2023 - ongoing
+client: Cloud Office Ltd.
+category: ETL, SQL, Viz, Dashboards
+description: This is a Sales Pipeline Dashboards project, PII edited out. Data is collected from Jira, ingested in Google BigQuery where it is prepared and transformed using SQL and then ingested in Looker Studio to create the visualisations and multiple dashboard pages.
+---

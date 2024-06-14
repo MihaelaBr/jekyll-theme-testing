@@ -3,6 +3,9 @@ layout: default
 modal-id: 1
 date: 2024-06-13
 img: Spotify_data_project_1.jpeg
+img1: JNB_1.png
+img2: JNB_2.png
+img3: JNB_3.png
 alt: image-alt
 project-date: June 2024
 client: Personal project

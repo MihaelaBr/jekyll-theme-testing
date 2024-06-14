@@ -10,7 +10,7 @@ alt: image-alt
 project-date: June 2024
 client: Personal project
 category: Python Programming | EDA
-techstack: Python, Jupyter Notebooks
+techstack: Python, Jupyter Notebooks, Tableau
 link: GitHub code(https://github.com/MihaelaBr)
 description: This Exploratory Data Analysis and Visualisations project was created in Jupyter Notebooks and later in Tableau using the data from my personal Spotify account. Data was provided by Spotify after an official request in April 2024. The project was inspired by a Women in Data Science (WiDS) Workshop on using Jupyter Notebooks for data analysis and visualisations. 
 ---

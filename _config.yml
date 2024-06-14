@@ -1,5 +1,5 @@
 # Site settings
-title: "Portfolio"
+title: "Michaela Brankova Home page"
 email: mi.brankova+portfolio@gmail.com
 url: https://mihaelabr.github.io/portfolio/
 description: "This is Michaela Brankova's Data Portfolio"
@@ -42,7 +42,9 @@ social:
   - title: linkedin
     url: http://linkedin.com/in/mihaela-brankova
   - title: github
-    url: http://github.com/jekyll
+    url: http://github.com/MihaelaBr
+  - title: tableau
+    url: https://public.tableau.com/app/profile/mihaela.brankova5845/vizzes
 
 # Postal address (add as many lines as necessary)
 address:

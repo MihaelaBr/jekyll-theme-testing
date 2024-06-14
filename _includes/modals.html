@@ -40,6 +40,11 @@
                 <strong>{{ post.client }}</strong>
               </li>
               {% endif %}
+              {% if post.client %}
+              <li>Link:
+                <strong>{{ post.link }}</strong>
+              </li>
+              {% endif %}
             </ul>
             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
               Close</button>

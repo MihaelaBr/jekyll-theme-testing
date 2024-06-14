@@ -23,7 +23,7 @@
             {% endif %}
             <ul class="list-inline item-details">
               {% if post.techstack %}
-              <li>Tech stack:
+              <li>Tech stack and tools:
                 <strong>{{ post.techstack }}</strong>
               </li>
               {% endif %}
@@ -44,7 +44,9 @@
               {% endif %}
               {% if post.client %}
               <li>Link:
-                <strong>{{ post.link }}</strong>
+                <strong>
+                  <a href={{ post.link }} >Link</a>
+                    </strong>
               </li>
               {% endif %}
             </ul>

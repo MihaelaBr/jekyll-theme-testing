@@ -7,5 +7,6 @@ alt: image-alt
 project-date: June 2024
 client: Personal project
 category: Python Programming
+techstack: Python, Jupyter Notebooks
 description: This project was created in Jupyter Notebooks using the data from my personal Spotify account. Data was provided by Spotify after an official request. The base for the Exploratory Data Analysis was a Women in Data Science Workshop on using Jupyter Notebooks for data analysis and visualisations. 
 ---

@@ -6,6 +6,7 @@ url: https://mihaelabr.github.io/portfolio/
 description: "This is Michaela Brankova's Data Portfolio"
 keywords: "dataprojects, datascience, dataanalytics, dataengineering, tpm, technicalprojects"
 skills: "Data Analytics & Visualisation - Data Engineering - Technical Project Management"
+techstack: "SQL - BigQuery DWH - Looker BI & Tableau - Python - GA4 Analytics - ETL Pipelines - TPM"
 meta_author: Brankova Michaela
 
 # Google webmaster tools

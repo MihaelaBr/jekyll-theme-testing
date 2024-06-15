@@ -1,8 +1,8 @@
 ---
 layout: default
 modal-id: 2
-date: 2023-12-01
 title: Sales Pipeline Leads
+date: 2023-12-01
 img: Sales_pipeline_project_2.jpeg
 alt: image-alt
 project-date: December 2023 - ongoing

@@ -7081,7 +7081,7 @@ readers do not read off random characters that represent icons */
   display: inline-block;
   width: 1em;
   height: 1em;
-  background-image: url('images/tableau-icon.svg'); /* Path to your Tableau SVG file */
+  background-image: url('img/tableau-icon.svg'); /* Path to your Tableau SVG file */
   background-size: contain;
   background-repeat: no-repeat;
   vertical-align: middle; /* Aligns the icon with the text */

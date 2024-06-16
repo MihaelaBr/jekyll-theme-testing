@@ -109,6 +109,16 @@ header .intro-text .skills {
     font-weight: 300;
 }
 
+header .intro-text .techstack {
+    font-size: 1em;
+    font-weight: 300;
+}
+
+header .intro-text .skillsdetails {
+    font-size: 1em;
+    font-weight: 300;
+}
+
 @media(min-width:768px) {
     header .container {
         padding-top: 200px;

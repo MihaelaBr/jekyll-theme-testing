@@ -358,6 +358,11 @@ form .row:first-child .floating-label-form-group {
     border-top: 1px solid #eee;
 }
 
+/* Tableau Icon */
+.fa-tableau:before {
+    content: "\f02f";
+}
+
 footer {
     color: #fff;
 }

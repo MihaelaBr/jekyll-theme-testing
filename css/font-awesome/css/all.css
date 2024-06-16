@@ -7077,6 +7077,17 @@ readers do not read off random characters that represent icons */
 .fa-linkedin-in:before {
   content: "\f0e1"; }
 
+.fa-tableau {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-image: url('images/tableau-icon.svg'); /* Path to your Tableau SVG file */
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle; /* Aligns the icon with the text */
+  margin-right: 0.25em; /* Space between the icon and the text */
+}
+
 .fa-linode:before {
   content: "\f2b8"; }
 

@@ -1,12 +1,11 @@
 # Site settings
 title: "Michaela Brankova"
-subtitle: "Services"
+subtitle: "Data Analytics & Visualisation - Data Engineering - Technical Project Management"
 email: mi.brankova+portfolio@gmail.com
 url: https://mihaelabr.github.io/portfolio/
 description: "This is Michaela Brankova's Data Portfolio"
 keywords: "dataprojects, datascience, dataanalytics, dataengineering, tpm, technicalprojects"
-skills: "Data Analytics & Visualisation - Data Engineering - Technical Project Management"
-techstack: "SQL - BigQuery DWH - Looker BI & Tableau - Python - GA4 Analytics - ETL Pipelines - TPM"
+skills: "SQL - BigQuery DWH - Looker BI & Tableau - Python - GA4 Analytics - ETL Pipelines - TPM"
 skillsdetails: "Exploratory data analysis, data storytelling through visualisations, datasets optimisations, reports, interactive dashboards in BI tools like Tableau, Looker BI, Looker Studio, Power BI, No code App Development, Technical project management"
 meta_author: Brankova Michaela
 

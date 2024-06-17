@@ -36,8 +36,8 @@ h6 {
     font-weight: 700;
 }
 
-hr.star-light,
-hr.star-primary {
+hr.chevron-light,
+hr.chevron-primary {
     margin: 25px auto 30px;
     padding: 0;
     max-width: 250px;
@@ -47,8 +47,8 @@ hr.star-primary {
     overflow: visible;
 }
 
-hr.star-light:after,
-hr.star-primary:after {
+hr.chevron-light:after,
+hr.chevron-primary:after {
     content: "\f078";
     display: inline-block;
     position: relative;
@@ -58,20 +58,20 @@ hr.star-primary:after {
     font-size: 2em;
 }
 
-hr.star-light {
+hr.chevron-light {
     border-color: #fff;
 }
 
-hr.star-light:after {
+hr.chevron-light:after {
     color: #fff;
     background-color: #{{ site.color.primary }};
 }
 
-hr.star-primary {
+hr.chevron-primary {
     border-color: #{{ site.color.secondary }};
 }
 
-hr.star-primary:after {
+hr.chevron-primary:after {
     color: #{{ site.color.secondary }};
     background-color: #fff;
 }

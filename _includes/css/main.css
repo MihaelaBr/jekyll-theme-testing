@@ -361,6 +361,8 @@ form .row:first-child .floating-label-form-group {
 /* Tableau Icon */
 .fa-tableau:before {
     content: "\f02f";
+    font-family: FontAwesome;
+    font-size: 1em;
 }
 
 footer {

@@ -117,6 +117,7 @@ header .intro-text .skillsdetails {
 header .icon-wrapper {
     display: flex;
     justify-content:center;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 header .icon-wrapper i{

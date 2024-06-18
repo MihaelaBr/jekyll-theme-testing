@@ -12,6 +12,7 @@ project-date: May 2024
 client: Capstone Project for Google Data Analytics Certificate
 category: Data Analytics | R programming 
 techstack: SQL, R, Tableau
-link: (https://public.tableau.com/app/profile/mihaela.brankova5845/vizzes)
+linkviz: https://public.tableau.com/app/profile/mihaela.brankova5845/vizzes
+linkcode: https://github.com/MihaelaBr
 description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
 ---

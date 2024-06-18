@@ -3,7 +3,10 @@ layout: default
 modal-id: 2
 title: Sales Pipeline Leads
 date: 2023-12-01
-img: Sales_pipeline_project_2.jpeg
+img: leads-stage.png
+img1: leads-stage.png
+img2: leads-stage.png
+img3: leads-stage.png
 alt: image-alt
 project-date: December 2023 - ongoing
 client: Cloud Office Ltd.

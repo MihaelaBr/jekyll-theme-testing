@@ -2,7 +2,7 @@
 layout: default
 modal-id: 4
 title: Netflix data - What to watch?
-date: 2024-06-20
+date: 2024-06-10
 img: game.png
 img1: game.png
 img2: game.png

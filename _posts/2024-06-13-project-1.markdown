@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 1
-title: Spotify Data
+title: Spotify Data - EDA
 date: 2024-06-13
 img: JNB_1.png
 img1: JNB_1.png

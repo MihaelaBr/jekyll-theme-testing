@@ -229,7 +229,7 @@ section.success {
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
     position: absolute;
-    top: 50%;
+    top: 40%;
     width: 90%;
     height: 20px;
     margin-top: -12px;

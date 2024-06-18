@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 3
-title: Capstone Project "Bike sharing services success"
+title: Capstone Project - Bike sharing services success
 date: 2024-05-02
 img: circus.png
 img1: circus.png

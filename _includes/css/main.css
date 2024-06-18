@@ -250,7 +250,7 @@ section.success {
 #portfolio .portfolio-item .portfolio-link img {
     width: 100%;
     height: auto;
-    border-radius: 20px; /* Rounded edges */
+    border-radius: 25px; /* Rounded edges */
     object-fit: cover; /* Ensures images are the same size */
 }
 
@@ -266,7 +266,7 @@ section.success {
     justify-content: space-between;
     }
 .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
-    margin: 10px;
+    margin: 20px;
     flex: 1 0 calc(20% - 20px); /* 5 items per row with spacing */
     box-sizing: border-box;
     }

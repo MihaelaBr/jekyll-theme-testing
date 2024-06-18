@@ -201,15 +201,16 @@ section.success {
 }
 
 #portfolio .portfolio-item {
-    margin: 10px; /* Add space between items */
-    box-sizing: border-box;
+    right: 0;
+    margin: 0 0 15px;
+    }
 }
 
 #portfolio .portfolio-item .portfolio-link {
     display: block;
     position: relative;
     margin: 0 auto;
-    width: 100%; /* Ensure link covers the whole item */
+    max-width: 400px; 
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
@@ -248,8 +249,8 @@ section.success {
 }
 
 #portfolio .portfolio-item .portfolio-link img {
-    width: 100%;
-    height: auto;
+    width: 100px;
+    height: 60px;
     border-radius: 20px; /* Rounded edges */
     object-fit: cover; /* Ensures images are the same size */
 }

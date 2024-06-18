@@ -3,10 +3,10 @@ layout: default
 modal-id: 6
 title: Data Professional Portfolio
 date: 2024-06-13
-img: submarine.png
-img1: submarine.png
-img2: submarine.png
-img3: submarine.png
+img: data-pro-portfolio.png
+img1: data-pro-portfolio.png
+img2:  data-pro-portfolio.png
+img3:  data-pro-portfolio.png
 alt: image-alt
 project-date: June 2024
 client: Personal project

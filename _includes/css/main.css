@@ -202,14 +202,14 @@ section.success {
 
 #portfolio .portfolio-item {
     right: 0;
-    margin: 0 0 15px;
+    margin: 0 10px 15px;
 }
 
 #portfolio .portfolio-item .portfolio-link {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 400px;
+    width: 100%;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
@@ -247,6 +247,13 @@ section.success {
     margin: 0;
 }
 
+#portfolio .portfolio-item .portfolio-link img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px; /* Rounded edges */
+    object-fit: cover; /* Ensures images are the same size */
+}
+
 #portfolio * {
     z-index: 2;
 }
@@ -261,29 +268,36 @@ section.success {
 @media (min-width: 1380px) {
     .portfolio-flex-grid .portfolio-flex-row {
       display: flex;
-      flex-flow: row wrap;
-      align-items: stretch;
+      flex-wrap:wrap;
+/*       flex-flow: row wrap; */
+/*       align-items: stretch; */
       justify-content: space-between;
     }
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
-      flex: 1 0 calc(33.333% - 20px)%;
-      max-width: 49%;
+      margin: 10px;
+      flex: 1 0 calc(25% - 20px);
+      box-sizing: border-box;
+/*       max-width: 49%; */
     }
   }
-  /* A small grid 3 columns */
-  @media (min-width: 960px) {
+ /* Responsive adjustments */
+  @media (min-width: 1200px) {
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
-      flex: 1 0 32%;
-      max-width: 32%;
+      flex: 1 0 calc(33.333% - 20px); /* 3 items per row */
     }
   }
-  /* A large grid might need four columns on widescreen layouts */
-  /*@media (min-width: 1380px) {
-    .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
-      flex: 1 0 23.5%;
-      max-width: 23.5%;
-    }*/
+  @media (max-width: 960px) {
+    .portfolio-flex-grid .portfolio-flex-item {
+        flex: 1 0 calc(50% - 20px); /* 2 items per row */
+    }
+  }
+
+  @media (max-width: 600px) {
+    .portfolio-flex-grid .portfolio-flex-item {
+        flex: 1 0 100%; /* 1 item per row */
+    }
   } 
+}
 
 .btn-outline {
     margin-top: 15px;

@@ -116,8 +116,10 @@ header .intro-text .skillsdetails {
 
 header .icons {
     display: block;
+    position: relative;
     width: 100px;
     height: 100px;
+    color: #{{ site.color.secondary }};
 }
 
 @media(min-width:768px) {

@@ -82,7 +82,7 @@ hr.chevron-primary:after {
 
 header {
     text-align: center;
-    color: #{{ site.color.secondary }};
+/*     color: #{{ site.color.secondary }}; */
     background: #{{ site.color.primary }};
 }
 
@@ -102,6 +102,7 @@ header .intro-text .name {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 1.5em;
     font-weight: 700;
+    color: #{{ site.color.secondary }};
 }
 
 header .intro-text .subtitle {
@@ -116,11 +117,13 @@ header .intro-text .subtitle {
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
+    color: #{{ site.color.secondary }};
 }
 
 header .intro-text .skillsdetails {
     font-size: 1.15em;
     font-weight: 300;
+    color: #{{ site.color.secondary }};
 }
 
 header .icon-wrapper {

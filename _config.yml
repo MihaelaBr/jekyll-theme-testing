@@ -30,6 +30,8 @@ color:
   secondary: 2c3e50 #FD6E8A
   secondary-rgb: "44,62,80"
   secondary-dark: 233140 #A2122F
+  tertiary: 800080
+  tertiary-rgb: "128,0,128"
 
 # Footer settings
 footer:

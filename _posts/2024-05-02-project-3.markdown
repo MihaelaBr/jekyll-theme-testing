@@ -4,9 +4,14 @@ modal-id: 3
 title: Capstone Project "Bike sharing services success"
 date: 2024-05-02
 img: circus.png
+img1: circus.png
+img2: circus.png
+img3: circus.png
 alt: image-alt
 project-date: May 2024
-client: Capstone Project
-category: Data Analytics
+client: Capstone Project for Google Data Analytics Certificate
+category: Data Analytics | R programming 
+techstack: SQL, R, Tableau
+link: (https://public.tableau.com/app/profile/mihaela.brankova5845/vizzes)
 description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
 ---

@@ -82,7 +82,7 @@ hr.chevron-primary:after {
 
 header {
     text-align: center;
-    color: #fff;
+    color: #{{ site.color.secondary }};
     background: #{{ site.color.primary }};
 }
 
@@ -93,7 +93,7 @@ header .container {
 
 header img {
     display: block;
-    margin: 0 auto 20px;
+    margin: 0 auto 0px;
 }
 
 header .intro-text .name {
@@ -201,15 +201,15 @@ section.success {
 }
 
 #portfolio .portfolio-item {
-    right: 0;
-    margin: 0 10px 15px;
+    margin: 10px; /* Add space between items */
+    box-sizing: border-box;
 }
 
 #portfolio .portfolio-item .portfolio-link {
     display: block;
     position: relative;
     margin: 0 auto;
-    width: 100%;
+    width: 100%; /* Ensure link covers the whole item */
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
@@ -250,7 +250,7 @@ section.success {
 #portfolio .portfolio-item .portfolio-link img {
     width: 100%;
     height: auto;
-    border-radius: 25px; /* Rounded edges */
+    border-radius: 20px; /* Rounded edges */
     object-fit: cover; /* Ensures images are the same size */
 }
 

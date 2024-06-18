@@ -258,29 +258,26 @@ section.success {
     z-index: 2;
 }
 
-@media(min-width:767px) {
-    #portfolio .portfolio-item {
-        margin: 0 0 30px;
-    }
-}
 
 /* Flexbox Portfolio Grid */
-@media (min-width: 1380px) {
-    .portfolio-flex-grid .portfolio-flex-row {
-      display: flex;
-      flex-wrap:wrap;
-/*       flex-flow: row wrap; */
-/*       align-items: stretch; */
-      justify-content: space-between;
+.portfolio-flex-grid .portfolio-flex-row {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
     }
-    .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
-      margin: 10px;
-      flex: 1 0 calc(25% - 20px);
-      box-sizing: border-box;
-/*       max-width: 49%; */
+.portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
+    margin: 10px;
+    flex: 1 0 calc(20% - 20px); /* 5 items per row with spacing */
+    box-sizing: border-box;
     }
   }
+
  /* Responsive adjustments */
+  @media (max-width: 1600px) {
+    .portfolio-flex-grid .portfolio-flex-item {
+        flex: 1 0 calc(25% - 20px); /* 4 items per row */
+    }
+  }
   @media (min-width: 1200px) {
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
       flex: 1 0 calc(33.333% - 20px); /* 3 items per row */

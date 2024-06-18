@@ -262,7 +262,7 @@ section.success {
 /* Flexbox Portfolio Grid */
 .portfolio-flex-grid .portfolio-flex-row {
     display: flex;
-    flex-wrap:wrap;
+    flex-flow:row wrap;
     justify-content: space-between;
     }
 .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {

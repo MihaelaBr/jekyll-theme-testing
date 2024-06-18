@@ -114,14 +114,13 @@ header .intro-text .skillsdetails {
     font-weight: 300;
 }
 
-header .icons {
-    display: inline-block;
-    position: relative;
-    width: 100px;
-    height: 100px;
-    text-align: center;
-    font-size: 40px;
-    line-height: 85px;
+header .icon-wrapper {
+    display: flex;
+    justify-content:center;
+    margin-bottom: 20px;
+}
+header .icon-wrapper i{
+    font-size: 3em;
     color: #{{ site.color.secondary }};
 }
 
@@ -140,6 +139,9 @@ header .icons {
     }
     header .intro-text .skillsdetails {
         font-size: 1.25em;
+    }
+    header .icon-wrapper i{
+        font-size:2em;
     }
 }
 

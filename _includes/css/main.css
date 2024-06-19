@@ -240,6 +240,22 @@ section.success {
     margin: 0 0 0px;
 }
 
+/* Ensure the portfolio items have the same height */
+#portfolio.portfolio-flex-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Make sure content is spaced evenly */
+    padding: 10px; /* Add some padding for spacing */
+}
+
+/* Ensure images fill their containers without distortion */
+#portfolio.portfolio-flex-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    flex-grow: 1; /* Allow the image to grow and take available space */
+}
+
 #portfolio .portfolio-item .portfolio-link {
     display: block;
     position: relative;

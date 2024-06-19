@@ -235,7 +235,7 @@ section.success {
 }
 
 .success img.img-fluid {
-    max-height: 400px; 
+    max-height: 100%; 
     width: auto; 
     display: block;
     margin: 20px 0; 
@@ -253,7 +253,7 @@ section.success {
         margin: 0 20px;
     }
     .success .col-md-6 {
-        margin-top: 0;
+        margin-top: 20px;
     }
 }
 

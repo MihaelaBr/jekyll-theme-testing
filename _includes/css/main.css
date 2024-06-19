@@ -223,7 +223,20 @@ section h2 {
 section.success {
     color: #{{ site.color.secondary }};
     background: #{{ site.color.primary }};
-    padding: 50px;
+    padding: 100px;
+}
+
+.success .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.success img.img-fluid {
+    max-height: 300px; /* Example of a fixed height for the image */
+    width: auto; /* Allow the image width to adjust automatically */
+    display: block; /* Ensure the image is treated as a block element */
+    margin: 0 auto; /* Center the image horizontally */
 }
 
 @media(max-width:767px) {

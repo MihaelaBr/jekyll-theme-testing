@@ -251,7 +251,7 @@ section.success {
 /* Ensure images fill their containers without distortion */
 #portfolio.portfolio-flex-item img {
     width: 100%;
-    height: auto;
+    height: 500px;
     object-fit: cover; /* Maintain aspect ratio and cover the container */
     flex-grow: 1; /* Allow the image to grow and take available space */
 }

@@ -241,11 +241,15 @@ section.success {
     margin: 20px 0; 
 }
 
+.success .col-md-6 {
+    margin-top: 20px; /* Add margin above the text columns */
+}
+
 @media (min-width: 768px) {
-    .success .container {
+    .success .container-fluid {
         flex-direction: row;
     }
-    .success img.img {
+    .success img.img-fluid {
         margin: 0 20px;
     }
 }

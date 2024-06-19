@@ -268,14 +268,14 @@ section.success {
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content .post-title {
-    margin-bottom: 15px; /* Add space between title and icon */
+    margin-bottom: 10px; /* Add space between title and icon */
     font-size: 20px;
     color: #fff; /* Ensure text color is white */
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
-    margin-top: 15px;
-    font-size: 3em; /* Make the icon larger */
+    margin-top: 10px;
+    font-size: 2.5em; /* Make the icon larger */
     color: #fff; /* Ensure icon color is white */
 }
 

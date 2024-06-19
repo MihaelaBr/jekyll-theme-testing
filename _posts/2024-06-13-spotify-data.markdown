@@ -7,7 +7,7 @@ img: JNB_1.png
 img1: JNB_1.png
 img2: JNB_2.png
 img3: JNB_3.png
-alt: image-alt
+alt: jupyter-notebook-python-screenshot
 project-date: June 2024
 client: Personal project
 category: Python Programming | EDA

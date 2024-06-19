@@ -236,8 +236,9 @@ section.success {
 }
 
 #portfolio .portfolio-item {
-    right: 0;
-    margin: 0 0 0px;
+    margin: 0 5px 20px;
+    position: relative;
+    overflow: hidden;
 }
 
 /* Ensure the portfolio items have the same height */
@@ -256,6 +257,7 @@ section.success {
     padding: 0;
     margin: 0;
     width: 100%;
+    height: 100%;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
@@ -276,7 +278,7 @@ section.success {
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
     position: absolute;
     top: 50%;
-    left:50%;
+    left: 50%;
     transform: translate(-50%,-50%);
     width: 100%;
     height: 20px;
@@ -305,36 +307,37 @@ section.success {
     z-index: 2;
 }
 
-@media(min-width:960px) {
-    #portfolio .portfolio-item {
-        margin: 0 0 0px;
-    }
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+.img-rounded {
+    border-radius: 6px;
 }
 
 /* Flexbox Portfolio Grid */
 @media (min-width: 640px) {
     .portfolio-flex-grid .portfolio-flex-row {
       display: flex;
-      flex-flow: row wrap;
-      align-items: stretch;
+      flex-wrap: wrap;
+/*       flex-flow: row wrap; */
+/*       align-items: stretch; */
       justify-content: space-between;
     }
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
-      flex: 1 0 49%;
-/*       max-width: 49%; */
+      flex: 1 1 49%;
     }
   }
   @media (min-width: 960px) {
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
-      flex: 1 0 32%;
-/*       max-width: 32%; */
+      flex: 1 1 32%;
     }
   }
   /* A large grid might need four columns on widescreen layouts */
   @media (min-width: 1380px) {
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
       flex: 1 0 23.5%;
-/*       max-width: 23.5%; */
     }
   }
 

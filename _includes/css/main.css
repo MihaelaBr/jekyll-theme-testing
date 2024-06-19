@@ -291,7 +291,7 @@ section.success {
     z-index: 2;
 }
 
-@media(min-width:767px) {
+@media(min-width:960px) {
     #portfolio .portfolio-item {
         margin: 0 0 20px;
     }

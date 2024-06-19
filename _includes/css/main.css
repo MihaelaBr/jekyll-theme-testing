@@ -235,10 +235,10 @@ section.success {
 }
 
 .success img.img-fluid {
-    max-height: 500px; /* Example of a fixed height for the image */
-    width: auto; /* Allow the image width to adjust automatically */
-    display: block; /* Ensure the image is treated as a block element */
-    margin: 0 auto 20px; /* Center the image horizontally */
+    max-height: 500px; 
+    width: auto; 
+    display: block;
+    margin: 20px 0; 
 }
 
 @media (min-width: 768px) {
@@ -246,7 +246,7 @@ section.success {
         flex-direction: row;
     }
     .success img.img-fluid {
-        margin: 0 auto; /* Center the image horizontally */
+        margin: 0 20px;
     }
 }
 

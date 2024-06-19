@@ -1,4 +1,4 @@
-Personal Data Projects Portfolio Michaela Brankova
+Data Projects Portfolio Michaela Brankova
 =========================
 
 ## About the Portfolio

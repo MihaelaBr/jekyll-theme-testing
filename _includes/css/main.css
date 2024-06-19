@@ -252,6 +252,9 @@ section.success {
     .success img.img-fluid {
         margin: 0 20px;
     }
+    .success .col-md-6 {
+        margin-top: 0;
+    }
 }
 
 .success .text-content {

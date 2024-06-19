@@ -57,7 +57,7 @@ address:
   - line: Switzerland
 
 # Credits content
-credits: ': Based on Freelancer, a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: ': This webpage is based on Freelancer, a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown

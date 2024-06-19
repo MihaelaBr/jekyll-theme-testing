@@ -30,6 +30,7 @@ h2{
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+    margin-below: 20px;
     color: #{{ site.color.tertiary }};
 }
 ,
@@ -471,11 +472,11 @@ footer.tableau {
   width: 1em;
   height: 1em;
   background-image: url('https://github.com/MihaelaBr/portfolio/blob/master/img/tableau-icon2.svg'); /* Path to the Tableau SVG file */
-  background-size: contain;
+/*   background-size: contain;
   background-repeat: no-repeat;
   vertical-align: middle; /* Aligns the icon with the text */
-  margin-right: 0.25em; /* Space between the icon and the text */
-} */
+/*   margin-right: 0.25em; /* Space between the icon and the text */
+/* } */ 
 
 footer .footer-below {
     padding: 25px 0;

@@ -450,6 +450,12 @@ form .row:first-child .floating-label-form-group {
     border-top: 1px solid #eee;
 }
 
+.btn-success {
+    color: #ffffff;
+    background-color: #{{ site.color.tertiary }} ;
+    border-color: #{{ site.color.tertiary }};
+}
+
 footer {
     color: #fff;
 }

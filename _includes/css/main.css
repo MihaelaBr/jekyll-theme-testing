@@ -6,6 +6,8 @@
 
 body {
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 p {
@@ -237,14 +239,15 @@ section.success {
 
 #portfolio .portfolio-item {
     right: 0;
-    margin: 0 0 15px;
+    margin: 0 0 0px;
 }
 
 #portfolio .portfolio-item .portfolio-link {
     display: block;
     position: relative;
-    margin: 0 auto;
-    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    width: 100%;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
@@ -296,7 +299,7 @@ section.success {
 
 @media(min-width:960px) {
     #portfolio .portfolio-item {
-        margin: 0 0 20px;
+        margin: 0 0 0px;
     }
 }
 

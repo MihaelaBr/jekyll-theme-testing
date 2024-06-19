@@ -7,7 +7,7 @@ img: data-pro-portfolio.png
 img1: data-pro-portfolio.png
 img2:  data-pro-portfolio.png
 img3:  data-pro-portfolio.png
-alt: image-alt
+alt: portfolio-header-screenshot
 project-date: June 2024
 client: Personal project
 category: Web Development

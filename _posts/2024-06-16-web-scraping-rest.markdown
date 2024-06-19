@@ -7,7 +7,7 @@ img: cabin.png
 img1: JNB_1.png
 img2: JNB_2.png
 img3: JNB_3.png
-alt: image-alt
+alt: Jupyter-Notebook-Python-Screenshot
 project-date: June 2024
 client: Personal project
 category: Web Scraping | Python Programming

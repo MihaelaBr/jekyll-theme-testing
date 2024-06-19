@@ -6,7 +6,6 @@
 
 body {
     overflow-x: hidden;
-    margin:0;
 }
 
 p {
@@ -239,7 +238,7 @@ section.success {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 100%;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {

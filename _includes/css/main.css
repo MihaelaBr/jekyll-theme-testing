@@ -454,6 +454,17 @@ footer .footer-above {
 footer .footer-col {
     margin-bottom: 50px;
 }
+/* 
+footer.tableau {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-image: url('https://github.com/MihaelaBr/portfolio/blob/master/img/tableau-icon2.svg'); /* Path to the Tableau SVG file */
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle; /* Aligns the icon with the text */
+  margin-right: 0.25em; /* Space between the icon and the text */
+} */
 
 footer .footer-below {
     padding: 25px 0;

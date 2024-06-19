@@ -26,7 +26,10 @@ a.active {
 }
 
 h1,
-h2,
+h2{
+    color: #{{ site.color.tertiary }};
+}
+,
 h3,
 h4,
 h5,

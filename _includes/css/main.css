@@ -230,8 +230,7 @@ section.success {
 
 .success .container-fluid {
     display: flex;
-/*     justify-content: center; */
-/*     align-items: center; */
+    flex-direction: column;
     padding: 0 20px;
 }
 
@@ -239,17 +238,20 @@ section.success {
     max-height: 500px; /* Example of a fixed height for the image */
     width: auto; /* Allow the image width to adjust automatically */
     display: block; /* Ensure the image is treated as a block element */
-    margin: 0 auto; /* Center the image horizontally */
+    margin: 0 auto 20px; /* Center the image horizontally */
 }
 
-@media(max-width:767px) {
-    section {
-        padding: 75px 0;
+@media (min-width: 768px) {
+    .success .container-fluid {
+        flex-direction: row;
     }
+    .success img.img-fluid {
+        margin: 0 auto; /* Center the image horizontally */
+    }
+}
 
-    section.first {
-        padding-top: 75px;
-    }
+.success .text-content {
+    margin: 20px 0; /* Add margin to top and bottom for spacing */
 }
 
 #portfolio .portfolio-item {

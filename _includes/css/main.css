@@ -376,7 +376,7 @@ section.success {
     }
   }
 
-.btn-outline {
+.-outline {
     margin-top: 15px;
     border: solid 2px #fff;
     font-size: 20px;
@@ -448,12 +448,6 @@ section.success {
 
 form .row:first-child .floating-label-form-group {
     border-top: 1px solid #eee;
-}
-
-.btn-success {
-    color: #ffffff;
-    background-color: #{{ site.color.tertiary }} ;
-    border-color: #{{ site.color.tertiary }};
 }
 
 footer {

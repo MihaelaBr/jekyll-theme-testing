@@ -223,6 +223,7 @@ section h2 {
 section.success {
     color: #{{ site.color.secondary }};
     background: #{{ site.color.primary }};
+    padding: 50px;
 }
 
 @media(max-width:767px) {

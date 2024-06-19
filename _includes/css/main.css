@@ -237,7 +237,7 @@ section.success {
     max-height: 500px; /* Example of a fixed height for the image */
     width: auto; /* Allow the image width to adjust automatically */
     display: block; /* Ensure the image is treated as a block element */
-    margin: 0 10px auto; /* Center the image horizontally */
+    margin: 0 auto; /* Center the image horizontally */
 }
 
 @media(max-width:767px) {

@@ -235,7 +235,7 @@ section.success {
 }
 
 .success img.img-fluid {
-    max-height: 500px; 
+    max-height: 400px; 
     width: auto; 
     display: block;
     margin: 20px 0; 

@@ -268,9 +268,9 @@ section.success {
     flex-grow: 1; /* Allow the image to grow and take available space */
 }
 
-#portfolio .portfolio-flex-item  img {
+#portfolio .portfolio-flex-item img {
     width: auto;
-    height: 50%;
+    height: 100%;
     object-fit: cover; /* Ensures the image covers the container */
     object-position: center; /* Center the image */
     position: absolute; /* Position the image absolutely */
@@ -366,15 +366,23 @@ section.success {
       flex: 1 1 49%;
     }
   }
+
   @media (min-width: 960px) {
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
       flex: 1 1 32%;
     }
   }
+
   /* A large grid might need four columns on widescreen layouts */
   @media (min-width: 1380px) {
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
       flex: 1 0 23.5%;
+    }
+  }
+
+  @media (min-width: 1680px) {
+    .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
+      flex: 1 0 19%;
     }
   }
 

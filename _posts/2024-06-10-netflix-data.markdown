@@ -7,7 +7,7 @@ img: game.png
 img1: game.png
 img2: game.png
 img3: game.png
-alt: image-alt
+alt: netflix-data-r-code-screenshot
 project-date: June 2024
 client: Personal Project
 category: R Programming | EDA

@@ -259,23 +259,23 @@ section.success {
     margin: 0 5px 20px;
 }
 
-#portfolio.portfolio-flex-item {
+/* #portfolio.portfolio-flex-item {
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Make sure content is spaced evenly */
-    object-fit: cover; /* Maintain aspect ratio and cover the container */
-    flex-grow: 1; /* Allow the image to grow and take available space */
+    justify-content: space-between;
+    object-fit: cover; 
+    flex-grow: 1; 
 }
 
 #portfolio .portfolio-flex-item img {
     width: auto;
     height: 100%;
-    object-fit: cover; /* Ensures the image covers the container */
-    object-position: center; /* Center the image */
-    position: absolute; /* Position the image absolutely */
+    object-fit: cover; 
+    object-position: center; 
+    position: absolute; 
     top: 0;
     left: 0;
-}
+} */
 
 #portfolio .portfolio-item .portfolio-link {
     display: block;

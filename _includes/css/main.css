@@ -265,6 +265,16 @@ section.success {
     flex-grow: 1; /* Allow the image to grow and take available space */
 }
 
+#portfolio .portfolio-flex-item  img {
+    width: auto;
+    height: 50%;
+    object-fit: cover; /* Ensures the image covers the container */
+    object-position: center; /* Center the image */
+    position: absolute; /* Position the image absolutely */
+    top: 0;
+    left: 0;
+}
+
 #portfolio .portfolio-item .portfolio-link {
     display: block;
     position: relative;

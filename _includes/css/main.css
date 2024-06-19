@@ -228,13 +228,13 @@ section.success {
     padding: 100px;
 }
 
-.success .container {
+.success .container-fluid {
     display: flex;
     flex-direction: column;
     padding: 0 20px;
 }
 
-.success img.img {
+.success img.img-fluid {
     max-height: 500px; 
     width: auto; 
     display: block;

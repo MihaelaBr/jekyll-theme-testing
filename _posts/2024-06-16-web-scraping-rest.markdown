@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: 1
+modal-id: 7
 title: Web Scraping - Restaurants in Zurich
 date: 2024-06-13
 img: cabin.png

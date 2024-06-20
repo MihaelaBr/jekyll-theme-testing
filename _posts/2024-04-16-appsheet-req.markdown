@@ -1,15 +1,15 @@
 ---
 layout: default
-modal-id: 1
-title: Spotify Data - EDA
-date: 2024-06-13
+modal-id: 9
+title: Appsheet - Requests
+date: 2024-05-10
 img: JNB_1.png
 img1: JNB_1.png
 img2: JNB_2.png
 img3: JNB_3.png
 alt: image-alt
-project-date: June 2024
-client: Personal project
+project-date: May 2024
+client: Cloud Office Ltd.
 category: Python Programming | EDA
 techstack: Python, Jupyter Notebooks, Tableau
 linkviz: https://public.tableau.com/app/profile/mihaela.brankova5845/vizzes

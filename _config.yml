@@ -1,11 +1,11 @@
 # Site settings
-title: "Michaela Brankova"
-subtitle: "Data to Insights"
-email: mi.brankova+portfolio@gmail.com
-url: https://mihaelabr.github.io/portfolio/
-description: "This is Michaela Brankova's Data Portfolio"
-keywords: "dataprojects, datascience, dataanalytics, dataengineering, tpm, technicalprojects"
-meta_author: Brankova Michaela
+title: "Name"
+subtitle: "Subtitle"
+email: youremail@gmail.com
+url: 
+description: "This is My Page"
+keywords: "keywords, keywords2"
+meta_author: 
 
 # Google webmaster tools
 google_verify:
@@ -35,7 +35,7 @@ color:
 
 # Footer settings
 footer:
-  copyright: Michaela Brankova
+  copyright: Bootstrap theme
   location: Location
   social: Around the Web
   credits: Credits
@@ -43,18 +43,18 @@ footer:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: linkedin
-    url: http://linkedin.com/in/mihaela-brankova
+    url: 
   - title: github
-    url: http://github.com/MihaelaBr
+    url: 
   - title: tableau
-    url: https://public.tableau.com/app/profile/mihaela.brankova5845/vizzes
+    url: 
   - title: kaggle
-    url: https://www.kaggle.com/mihaelabrankova
+    url: 
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Zürich
-  - line: Switzerland
+  - line: City
+  - line: Country
 
 # Credits content
 credits: ': This webpage is based on Freelancer, a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'

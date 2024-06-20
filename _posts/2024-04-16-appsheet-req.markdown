@@ -14,5 +14,5 @@ category: Low-code App development | Data Validation | Data Quality
 techstack: Google Appsheet | Google Sheets
 linkviz: https://public.tableau.com/app/profile/mihaela.brankova5845/vizzes
 linkcode: https://github.com/MihaelaBr
-description: This Exploratory Data Analysis and Visualisations project was created in Jupyter Notebooks and later in Tableau using the data from my personal Spotify account. Data was provided by Spotify after an official request in April 2024. The project was inspired by a Women in Data Science (WiDS) Workshop on using Jupyter Notebooks for data analysis and visualisations. 
+description: This Low-code app development project was created leveraging Google Appsheet and Google Sheets. It aimed at helping the Operations team and the Managers to track all the Hardware and Travel Request data and documents, along with other requests. Requests data is in one place with limited access to certain features and data within the app from specific teams, employees and managers. The project was developed using Agile methodology, which involved iterative two-week sprints where I prioritized tasks based on their business value and the Operations team's feedback who are the main app user for now. 
 ---

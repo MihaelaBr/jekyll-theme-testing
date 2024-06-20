@@ -14,5 +14,5 @@ category: Low-code App development | Data Validation | Data Quality
 techstack: Appsheet, Spreadheets
 linkviz: https://public.tableau.com/app/profile/mihaela.brankova5845/vizzes
 linkcode: https://github.com/MihaelaBr
-description: This Low-code app development project was created leveraging Google Appsheet and Google Sheets. It aimed at improving the work of the recruiting team by collecting all jobs and candidate data in one place with limited access to the app from specific teams. The project was inspired by a Women in Data Science (WiDS) Workshop on using Jupyter Notebooks for data analysis and visualisations. 
+description: This Low-code app development project was created leveraging Google Appsheet and Google Sheets. It aimed at improving the work of the recruiting team by collecting all jobs and candidate data in one place with limited access to the app from specific teams. The project was developed using Agile methodology, which involved iterative two-week sprints where the cross-functional team prioritized tasks based on their business value and the HR/Recruiting team's feedback who are the main app user. 
 ---
